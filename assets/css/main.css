@@ -85,6 +85,8 @@ input, select, textarea {
 	body::-webkit-scrollbar {
 		display: none;
 		background: #fff;
+		-ms-overflow-style: none;  /* IE and Edge */
+		scrollbar-width: none;  /* Firefox */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
